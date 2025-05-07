@@ -1,0 +1,61 @@
+.container {
+  margin: 1rem 0;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.seeAll {
+  color:  #64c8ff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.scrollContainer {
+  display: flex;
+  overflow-x: auto;
+  gap: 5rem;
+  padding: 0 1rem;
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollContainer::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 180px;
+  height: 200px;
+
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.name {
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+  color: #ccc;
+  text-align: center;
+}

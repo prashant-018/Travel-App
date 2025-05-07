@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #0f0f0f;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+.container {
+  background-color: #0f0f0f;
+  color: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 1rem;
+  padding-bottom: 5rem; /* space for bottom navbar */
+  min-height: 100vh;
+  position: relative;
+}
+
+.sectionTitle {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+
