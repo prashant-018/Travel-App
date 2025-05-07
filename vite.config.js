@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [
     react() 
   ],
-  base:"/Travel-App",
+  base:"/Travel-App/",
 })
