@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from './TripCard.module.css';
+import hotelImage from '../public/tokyo.jpg';
 import { FaCalendarAlt, FaUsers, FaMapMarkerAlt } from 'react-icons/fa';
+
 
 function TripCard() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.card}>
-        <img src="/tokyo.jpg" alt="Tokyo" className={styles.image} />
+        <img src={hotelImage} alt="Tokyo" className={styles.image} />
 
         <div className={styles.overlay}>
           <div className={styles.details}>

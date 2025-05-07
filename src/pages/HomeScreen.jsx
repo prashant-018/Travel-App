@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './HomeScreen.module.css';
 
 import Header from '../components2/Header';
-// import TripCard from '../components2/TripCard';
+import TripCard from '../components2/TripCard';
 import FlightDetails from '../components2/FlightDetails';
 import AccommodationList from '../components2/AccommodationList';
 import BottomNavbar from '../components2/BottomNavbar';
@@ -14,7 +14,7 @@ function HomeScreen() {
       <div className={styles.container}>
         <Header />
         <h3 className={styles.sectionTitle}>Your Upcoming Trip</h3>
-        {/* <TripCard /> */}
+        <TripCard />
         <FlightDetails />
         <AccommodationList />
         <BottomNavbar />
